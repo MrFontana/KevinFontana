@@ -52,9 +52,12 @@ p {
   height: 100vh;
 }
 .center-text{
-  font-size: 10em;
+  font-size: 5em;
   color: #fff;
+  padding-left: 20%;
+  margin-top: -44%;
 }
+
 .wrapper-around-anchor{
   display: flex;
   align-items: center;
@@ -62,9 +65,15 @@ p {
   height: 100px;
   margin-top: -15%;
 }
+
+/* #anchor1 {
+  background: url('./images/down-arrow.png') center no-repeat;
+} */
+
 .anchor{
   height: 100px;
   width: 200px;
+  /* background: url('./images/down-arrow.png') center no-repeat; */
   background-color: white;
   -webkit-clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22%);
 clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22%);
@@ -75,7 +84,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 }
 .landing-page-container-2{
   left:0;
-  background: url("https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?dpr=2&auto=compress,format&fit=crop&w=1199&h=796&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center fixed;
+  background: url("https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?dpr=2&auto=format&fit=crop&w=1199&h=974&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -87,6 +96,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 .center-text-pt-2{
   font-size: 5em;
   text-align: center;
+  margin-top: -48%;
 }
 .anchor-2{
   height: 100px;
@@ -340,4 +350,20 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 .boldMe {
   color: #fcdede;
   font-weight: bold;
+}
+
+#header-container {
+  width: 100%;
+}
+
+.prof-pic {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.flexMe {
+  display: flex;
+  font-size: 30px;
+  color: #fff;
 }
