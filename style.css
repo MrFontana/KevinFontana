@@ -236,4 +236,11 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   .prof-pic {
     width: 56%;
   }
+
+  .fab-icons img {
+    width: 53px;
+    height: auto;
+  }
+
 }
+
