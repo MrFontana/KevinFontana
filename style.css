@@ -4,7 +4,7 @@
 font-family: 'Cormorant Garamond', serif; favorite thus far
 font-family: 'Roboto Slab', serif;
 font-family: 'Lora', serif; second favorite
-font-family: 'Playfair Display', serif; favoritest
+font-family: 'Raleway'; favoritest
 font-family: 'Almendra SC', serif;*/
 
 html, body{
@@ -18,7 +18,7 @@ html, body{
     margin: 0;*/
 }
 p {
-  font-family: 'Almendra SC', sans-serif;
+  font-family: 'Raleway';
   color: white;
 }
 .header-container{
@@ -34,7 +34,7 @@ p {
   position: fixed;
 }
 .header-link{
-  font-family: 'Times New Roman';
+  font-family: 'Raleway';
   color: #fff;
   font-size: 1.3em;
 }
@@ -75,7 +75,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 }
 .landing-page-container-2{
   left:0;
-  background: url("https://hd.unsplash.com/photo-1438557068880-c5f474830377") no-repeat center center fixed;
+  background: url("https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?dpr=2&auto=compress,format&fit=crop&w=1199&h=796&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -107,7 +107,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 }
 .landing-page-container-3{
   left:0;
-  background: url("http://www.morewallpapers.com/wp-content/uploads/2016/02/Kittens-best-wallpaper-HD.jpg") no-repeat center center fixed;
+  background: url("https://images.unsplash.com/photo-1483121582001-2a1ee71de4d8?dpr=2&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -201,7 +201,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 
 .sub-menu li a {
   color: #fff;
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-family: 'Raleway';
   font-size: 16px;
   width: 100%;
   display: block;
@@ -267,7 +267,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   flex-direction: column;*/
 }
 .pleaseHold {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway';
   font-size: 40px;
   text-align: center;
   line-height: 40px;
@@ -282,13 +282,13 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 }
 .refresh {
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway';
   line-height: 40px;
   color: white;
   font-size: 40px;
 }
 #resetCats {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway';
   font-size: 40%;
   border: 1px solid white;
   background: rgba(0,0,0, .6);
@@ -301,7 +301,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 
 }
 #resetBeer{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway';
   font-size: 85%;
   border: 1px solid white;
   background: rgba(0,0,0, .6);
@@ -314,7 +314,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 }
 .getMeABeer {
   color: white;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway';
   font-size: 20px;
   line-height: 25px;
   text-align: center;
@@ -322,7 +322,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 }
 .randomBeerContainer {
   color: white;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway';
   font-size: 20px;
   line-height: 25px;
   text-align: center;
