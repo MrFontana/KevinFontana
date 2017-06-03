@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html ng-app='catsAndBeer'>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title></title>
+    </head>
+    <body>
+
+        <header class='header-container'>
+            <div class="header-link" ui-sref='cat'>Cats</div>
+            <div class="header-link" ui-sref='home'>Home</div>
+            <div class="header-link" ui-sref='beer'>Beer</div>
+
+
+            <!-- circular menu VVVVVVVVVV -->
+            <div class="open">
+
+                <span class="cls"></span>
+                <span>
+                    <ul class="sub-menu ">
+
+                        <li>
+                            <a href="#"ui-sref='randomCat'>Random Cats</a>
+                        </li>
+                        <li>
+                            <a href="#" ui-sref='reviews'>Reviews</a>
+                        </li>
+                        <li>
+                            <a href="#"ui-sref='login'>Login</a></a>
+                        </li>
+                    </ul>
+                </span>
+                <span class="cls"></span>
+            </div>
+
+            <!-- <div class="header-link">Menu</div> -->
+        </header>
+
+
+
+      <ui-view></ui-view>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js'></script>
+        <script src="js/jQuery.js"></script>
+        <script src="js/app.js" charset="utf-8"></script>
+        <script src="home/homeCtrl.js" charset="utf-8"></script>
+        <script src="cat/catCtrl.js" charset="utf-8"></script>
+        <script src="beer/beerCtrl.js" charset="utf-8"></script>
+        <script src="beerImg/beerImgCtrl.js" charset="utf-8"></script>
+        <script src="cat/catService.js" charset="utf-8"></script>
+        <script src="beer/beerService.js" charset="utf-8"></script>
+        <script src="catDir/catDir.js" charset="utf-8"></script>
+        <script src="catDir/catDirCtrl.js" charset="utf-8"></script>
+        <script src="beerImg/beerImgDir.js" charset="utf-8"></script>
+
+        </script>
+
+        </script>
+        <!--cat API
+          -->
+        <!-- brewery api
+         http://prost.herokuapp.com/api/v1 -->
+    </body>
+</html>
