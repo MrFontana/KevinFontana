@@ -232,6 +232,12 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   color: #565656;
 }
 
+@media (max-width: 2560px) {
+  #anchor2 > div {
+    margin-bottom: -120px;
+  }
+}
+
 @media (max-width: 1024px) {
   .prof-pic {
     width: 56%;
@@ -244,3 +250,12 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 
 }
 
+@media (max-width: 768px) {
+  #anchor2 > div {
+    margin-top: -33px;
+  }
+
+  #anchor3 > div {
+    margin-top: -33px;
+  }
+}
