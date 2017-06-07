@@ -94,7 +94,6 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   background: url("./images/bg-2.jpg") no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -125,7 +124,6 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   background-image: url("./images/bg-3.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100vh;
   display: flex;
   flex-direction: column;
