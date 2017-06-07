@@ -21,6 +21,14 @@ angular.module('catsAndBeer')
         $(function() {
             $('#anchor3').click(function() {
                 $('html, body').animate({
+                    scrollTop: $('#part-four').offset().top
+                }, 1000);
+                return false;
+            })
+        });
+         $(function() {
+            $('#anchor4').click(function() {
+                $('html, body').animate({
                     scrollTop: $('#part-one').offset().top
                 }, 200);
                 return false;
