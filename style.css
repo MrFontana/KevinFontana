@@ -268,7 +268,8 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 
 #project-flex {
   display: flex;
-  width: 100%;
+  width: 50%;
+  justify-content: space-between;
 }
 
 .centered {
