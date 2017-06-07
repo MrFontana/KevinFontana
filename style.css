@@ -266,6 +266,19 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   padding: 17px;
 }
 
+#project-flex {
+  display: flex;
+  width: 100%;
+}
+
+.centered {
+  text-align: center;
+}
+
+#project-flex > div.dun-gen.centered > p, #project-flex > div.fotify.centered > p {
+  font-size: 60px;
+}
+
 @media (max-width: 2560px) {
   #anchor2 > div {
     margin-bottom: -120px;
