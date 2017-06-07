@@ -8,11 +8,11 @@ font-family: 'Raleway'; favoritest
 font-family: 'Almendra SC', serif;*/
 
 html, body{
-  background: url("./images/bg-1.jpeg") no-repeat center center fixed;
+  /* background: url("./images/bg-1.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
     /*top:0;
     left: 0;
     margin: 0;*/
@@ -53,6 +53,11 @@ p {
   height: 100vh;
 }
 .landing-page-container{
+  background: url("./images/bg-1.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,6 +143,21 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   margin-top: -10%;
 }
 
+#part-two-half{
+  height: 100vh;
+}
+
+.container-projects {
+  background-image: url("./images/projects.jpg");
+ background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .header-link {
   cursor: pointer;
@@ -251,17 +271,26 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   .landing-page-container-2{
   left:0;
   background: url("./images/bg-2.jpg") no-repeat center center;
+  background-attachment: scroll;
   }
 
   .landing-page-container-3{
     background-image: url("./images/bg-3.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  .container-projects {
+    background-image: url("./images/projects.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
   }
 
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #anchor2 > div {
     margin-top: -33px;
   }
@@ -269,4 +298,4 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   #anchor3 > div {
     margin-top: -33px;
   }
-}
+} */
