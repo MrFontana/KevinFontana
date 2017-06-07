@@ -5,6 +5,14 @@ angular.module('catsAndBeer')
         $(function() {
             $('#anchor1').click(function() {
                 $('html, body').animate({
+                    scrollTop: $('#part-twoish').offset().top
+                }, 1000);
+                return false;
+            });
+        });
+        $(function() {
+            $('#anchor2ish').click(function() {
+                $('html, body').animate({
                     scrollTop: $('#part-two').offset().top
                 }, 1000);
                 return false;
