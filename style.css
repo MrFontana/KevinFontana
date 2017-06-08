@@ -68,7 +68,7 @@ p {
   font-size: 5em;
   color: #fff;
   padding-left: 20%;
-  margin-top: -44%;
+  /* margin-top: -44%; */
 }
 
 .wrapper-around-anchor{
@@ -76,7 +76,7 @@ p {
   align-items: center;
   justify-content: center;
   height: 100px;
-  margin-top: -15%;
+  /* margin-top: -15%; */
 }
 
 /* #anchor1 {
@@ -98,13 +98,11 @@ clip-path: polygon(50% 100%, 0 70%, 0 60%, 50% 90%, 100% 60%, 100% 70%);
   height: 100vh;
 }
 .landing-page-container-2{
-  left:0;
   background: url("./images/bg-2.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  min-height: 1200px;
 }
 .center-text-pt-2{
   font-size: 5em;
@@ -124,7 +122,7 @@ clip-path: polygon(50% 100%, 0 70%, 0 60%, 50% 90%, 100% 60%, 100% 70%);
   align-items: center;
   justify-content: center;
   height: 100px;
-  margin-top: -15%;
+  /* margin-top: -15%; */
 }
 #part-three{
   height: 100vh;
@@ -145,7 +143,7 @@ clip-path: polygon(50% 100%, 0 70%, 0 60%, 50% 90%, 100% 60%, 100% 70%);
   align-items: center;
   justify-content: center;
   height: 100px;
-  margin-top: -10%;
+  /* margin-top: -10%; */
 }
 
 #part-two-half{
@@ -162,6 +160,11 @@ clip-path: polygon(50% 100%, 0 70%, 0 60%, 50% 90%, 100% 60%, 100% 70%);
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 1400px;
+}
+
+#part-twoish > section > div > p {
+  color: #fff;
 }
 
 .container-projects {
@@ -174,6 +177,10 @@ clip-path: polygon(50% 100%, 0 70%, 0 60%, 50% 90%, 100% 60%, 100% 70%);
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#part-three > section > div > p {
+  color: #fff;
 }
 
 .header-link {
@@ -268,7 +275,8 @@ clip-path: polygon(50% 100%, 0 70%, 0 60%, 50% 90%, 100% 60%, 100% 70%);
 
 .bio-text {
   font-size: 2em;
-  padding: 17px;
+  padding: 100px;
+  text-align: center;
 }
 
 #project-flex {
