@@ -59,6 +59,7 @@ p {
     -o-background-size: cover;
     background-size: cover;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -87,8 +88,10 @@ p {
   width: 200px;
   /* background: url('./images/down-arrow.png') center no-repeat; */
   background-color: white;
-  -webkit-clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22%);
-clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22%);
+  /* -webkit-clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22%);
+clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22%); */
+-webkit-clip-path: polygon(50% 100%, 0 70%, 0 60%, 50% 90%, 100% 60%, 100% 70%);
+clip-path: polygon(50% 100%, 0 70%, 0 60%, 50% 90%, 100% 60%, 100% 70%);
 }
 
 #part-two{
@@ -111,8 +114,10 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   height: 100px;
   width: 200px;
   background-color: white;
-  -webkit-clip-path: polygon(50% 84%, 91% 57%, 91% 75%, 50% 100%, 9% 75%, 9% 57%);
-  clip-path: polygon(50% 84%, 91% 57%, 91% 75%, 50% 100%, 9% 75%, 9% 57%);
+ /*  -webkit-clip-path: polygon(50% 84%, 91% 57%, 91% 75%, 50% 100%, 9% 75%, 9% 57%);
+  clip-path: polygon(50% 84%, 91% 57%, 91% 75%, 50% 100%, 9% 75%, 9% 57%); */
+-webkit-clip-path: polygon(50% 100%, 0 70%, 0 60%, 50% 90%, 100% 60%, 100% 70%);
+clip-path: polygon(50% 100%, 0 70%, 0 60%, 50% 90%, 100% 60%, 100% 70%);
 }
 .wrapper-around-anchor-pt-2{
   display: flex;
@@ -178,7 +183,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 
 #header-container-1 {
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   top: 60px;
   text-align: center;
   font-size: 5em;
